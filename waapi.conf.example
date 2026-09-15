@@ -1,0 +1,24 @@
+# waapi runtime configuration
+phone_number_id=
+verify_token=
+app_secret=
+openweather_api_key=
+so_password=
+peso_access=
+token_file=/home/www/data/waapi_token
+auth_url=https://www.mazzini.org/auth
+auth_key=
+stats_db=/home/tools/mcp/work/waapi/stats.sqlite
+graph_version=v23.0
+cc_host=2001:678:1158:102:7a7b:8aff:fec3:b986
+cc_port=55556
+so_base_url=http://home.mazzini.org:3333
+peso_url=https://google.mazzini.org/pesoGM.cgi
+display_url=https://music.mazzini.org/displayd?action=status
+rer_url=https://restdati.lepida.it/myout.php?istat=00008
+radio_url=https://radioacolori.net/?action=live&format=text
+font_file=/home/www/data/arial.ttf
+
+# Repeat as needed.
+family=393xxxxxxxxx
+alias=@11|/cc inject K911
