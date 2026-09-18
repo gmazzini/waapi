@@ -1,4 +1,4 @@
-// Gianluca Mazzini @2026- Version 1.22
+// Gianluca Mazzini @2026- Version 1.23
 
 #include <arpa/inet.h>
 #include <ctype.h>
@@ -160,7 +160,7 @@ static void config_defaults(struct config *cfg) {
     cfg->cc_port = 55556;
     cfg->token_file = NULL;
     cfg->auth_url = dup_value("https://www.mazzini.org/auth");
-    cfg->stats_db = dup_value("/home/tools/mcp/work/waapi/stats.sqlite");
+    cfg->stats_db = dup_value("/home/tools/mcp/work/waapi/stats.db");
     cfg->graph_version = dup_value("v23.0");
     cfg->cc_host = dup_value("2001:678:1158:102:7a7b:8aff:fec3:b986");
     cfg->so_base_url = dup_value("http://home.mazzini.org:3333");
